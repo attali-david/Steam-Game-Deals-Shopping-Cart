@@ -1,0 +1,38 @@
+.cart {
+  display: flex;
+  flex-flow: column;
+  margin: 5%;
+}
+
+.cartItem {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5%;
+  border-bottom: 1px solid black;
+  font-size: 1.6rem;
+  line-height: 1rem;
+  padding: .5rem;
+}
+
+.cartImage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.savings {
+  align-self: flex-end;
+}
+
+.pricing {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.total {
+  align-self: flex-end;
+  font-size: 2rem;
+}

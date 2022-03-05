@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5%
+}
+
+* {
+  box-sizing: content-box;
+  color: white;
+  background: rgb(54, 50, 46)
+}

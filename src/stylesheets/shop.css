@@ -1,0 +1,46 @@
+.shopItems {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-size: 1.6rem;
+}
+
+.items {
+  flex: 1 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2vh;
+  padding: 1vh;
+}
+
+.cartAddition input {
+  width:10%;
+  background: white;
+  color: black;
+}
+
+.cartAddition button {
+  background: white;
+  margin-left: 2%;
+  color: black;
+}
+
+.priceInformation {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.normalPrice {
+  text-decoration: line-through;
+  margin-left: 5%;
+}
+
+.items form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
